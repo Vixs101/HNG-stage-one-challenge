@@ -6,7 +6,9 @@ html, body {
     align-items: center;
     height: 100%;
     width: 100%;
-    background-color: rgba(221, 195, 232, 0.357);
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #fd3838 74%);
+    min-height: 100vh;
 }
 
 /* styling the container */
@@ -16,21 +18,55 @@ html, body {
     justify-content: space-between;
     align-items: center;
     border-radius: 20px;
-    padding: 20px;
-    height: 90%;
-    width: 90%;
-    /* From https://css.glass */
-    background: rgba(154, 133, 133, 0.949);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
-    
+    border: 2px solid rgb(91, 194, 245);
+    height: 78%;
+    width: 70%;
+    background-color: white;
 }
 
 /* styling the image */
 .picture {
-    height: 40%;
-    width: 18%; 
-    border-radius: 50%;   
+    height: 90%;
+    width: 35%; 
+    border-radius: 15px; 
+    margin-left:40px ;  
+}
+
+/* vertical line */
+.vertical-line {
+    border-left: 2px solid black;
+    height: 70%;
+  }
+
+/* text area */
+.white {
+    height: 90%;
+    width: 46%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding:20px 10px ;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: 600;
+}
+/* styling  the btn */
+.btn {
+    height: 40px;
+    width:120px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #f64f4f 74%);
+}
+
+h1 {
+    font-size: 22px;
+}
+
+p {
+    font-size: 19px;
+    font-weight: 500;
 }

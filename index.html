@@ -9,16 +9,22 @@
 <body>
     <div class="container">
         <img src="profile_pic.jpg" alt="Elijah Victor" data-testid="slackDisplayImage" class="picture">
+        
+        <div class="vertical-line"></div>
+        <div class="white">
+            <h1> Personal and Real-time data attributes:</h1>
+            <p data-testid="slackUserName" class="name"><span>Name: </span>Elijah Victor</p>
 
-        <h2 data-testid="slackUserName" class="name">Elijah Victor</h2>
+            <p class="track" data-testid="myTrack"><span>Track: </span>Front-end</p>
 
-        <p class="track" data-testid="myTrack">Front-end</p>
+            <p class="dayOfTheWeek" data-testid="currentDayOfTheWeek"></p>
 
-        <p class="dayOfTheWeek" data-testid="currentDayOfTheWeek"></p>
-
-        <p class="utc_time" data-testid="currentUTCTime"></p>
+            <p class="utc_time" data-testid="currentUTCTime"></p>
     
-        <a href="https://github.com/Vixs101/HNG-stage-one-challenge/tree/main"  data-testid="githubURL">My Github</a>
+            <button class='btn'><a href="https://github.com/Vixs101/HNG-stage-one-challenge/tree/main"  data-testid="githubURL">My Github</a></button>
+        </div>    
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
